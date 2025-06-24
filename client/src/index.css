@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* common styling */
+.card {
+  box-shadow: 0 0 2px gray;
+  border-radius: 0 !important;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.normal-text {
+  font-size: 1rem;
+}
+
+.primary-button {
+  background-color: #001F3F !important;
+  border-color: #001F3F !important;
+  height: 40px !important;
+  width: 100% !important;
+  color: #FFFFFF !important;
+  font-size: 16px !important;
+}
+
+.forlink {
+  color: #001F3F;
+  text-decoration: none;
+  font-size: 16px !important;
+}
+
+.forlink:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(110, 197, 200, 0.523);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+/* register page & Login Page*/
+.root {
+  background-color: #E3F2FD;
+}
+
+.authentication {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.authentication-form {
+  width: 400px;
+}
+
+input {
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.521) !important;
+  height: 40px;
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+
+label {
+  font-size: 16px !important;
+  color: black !important;
+}
+
+.ant-form-item {
+  margin: 10px 0 !important;
+}
+
+.authentication .card-title {
+  background-color: #28A745;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: bold;
+  max-width: max-content !important;
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius: 10px;
+}
